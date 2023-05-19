@@ -1,0 +1,111 @@
+.home-section {
+    width: 100%;
+    min-height: 350px;
+}
+
+.feed-col {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+
+.feed-wrapper {
+    padding-top: 6rem;
+}
+
+@media (max-width: 768px) {
+    .feed-wrapper {
+        padding-top: 7.5rem;
+    }
+
+    .feed-col {
+        padding: 0 4rem;
+    }
+}
+
+.feed-wrapper .row {
+    margin-right: 0px;
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader .loading-word {
+    color: white;
+}
+
+@media (max-width: 992px) {
+    .loader .loading-word {
+        display: none;
+    }
+}
+
+/* filter section styles  */
+.filter-section {
+    width: 100%;
+    display: flex;
+    background: var(--background-medium);
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    padding: 9px 2rem;
+    top: 50px;
+    transition: ease-in all .3s;
+}
+
+.filter-section .section-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+   .filter-btn {
+        width: 100%;
+        margin-top: 14px;
+        display: block;
+   }
+}
+
+#scrollableDiv {
+    height: 100vh !important;
+}
+
+@media (max-width: 768px) {
+    .filter-section {
+        position: fixed;
+    }
+
+    .filter-section .close-button {
+        display: block !important;
+        position: absolute;
+        width: 26px;
+        height: 25px;
+        object-fit: cover;
+        top: 16px;
+        right: 12px;
+    }
+}
+
+.filter-section .close-button {
+    display: none;
+}
+
+.show-filter {
+    color: white !important;
+    background: var(--primary) !important;
+    position: fixed;
+    z-index: 99;
+    top: 5rem;
+    right: 8px;
+    padding: 5px 19px !important;
+    border: none;
+}

@@ -1,0 +1,120 @@
+:root {
+    --primary: #bb8af9;
+    --primary-2: #25d9c5;
+    /* --primary-3: #5c20e5; */
+    --primary-3: #6200ee;
+
+    --danger: #ff0000;
+    --danger-medium: #bb0000;
+    --danger-light: #ff4444;
+    --warning: #FED621;
+    --success: #71D331;
+    --black: #474747;
+    --black-medium: #808080;
+    --black-light: #cccccc;
+    --black-xlight: #e6e6e6;
+    --black-xxlight: #f2f2f2;
+    --black-vlight: #fcfcfc;
+    --black-bold: #000000;
+
+    --background: #121212;
+    --background-medium: #1f1b24;
+}
+
+#root, html, body {
+   background-color: var(--background);
+}
+
+.btn-primary {
+    /* background: var(--primary-2); */
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    font-weight: bold;
+    color: var(--black-bold);
+    padding: 8px 24px;
+    --bs-btn-bg: var(--primary-2);
+    --bs-btn-border-color: var(--primary-2);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--primary-2);
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--primary-2);
+    --bs-btn-active-border-color: var(--primary-2);
+}
+
+.btn-secondary {
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    font-weight: bold;
+    color: var(--black-bold);
+    padding: 8px 24px;
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: var(--primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--primary);
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--primary);
+    --bs-btn-active-border-color: var(--primary);
+}
+
+.bg-primary {
+    background-color: var(--primary-3) !important;
+}
+
+.badge {
+    padding: 9px 16px;
+    font-size: 10px;
+    border-radius: 0px;
+    color: var(--black-light);
+}
+
+.form-label  {
+    color: var(--black-light);
+    font-size: 14px;
+}
+
+.form-text {
+    font-size: 11px !important;
+}
+
+.form-control, .form-select {
+    background-color: var(--background-medium) !important;
+    border: 1px solid var(--black-medium) !important;
+    border-radius: 0 !important;
+    color: var(--black-light) !important;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-3);
+    border-color: var(--primary-3);
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0px;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-label {
+    color: var(--black-light);
+}
+
+.text-sm {
+    font-size: 12px;
+}

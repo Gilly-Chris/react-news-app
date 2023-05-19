@@ -1,0 +1,158 @@
+
+.news-card .feature-img {
+   object-fit: cover;
+   max-height: 285px;
+   border-radius: 0px;
+}
+
+.news-card .img-wrapper {
+    height: 285px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.news-card .content {
+    color: var(--black-xlight);
+    font-size: 12px;
+}
+
+.news-card .description {
+    font-style: italic;
+    color: var(--black-light);
+}
+.img-wrapper > .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img-wrapper:hover {
+    opacity: 0.6;
+    transition: ease-in .2s;
+}
+
+.img-wrapper .category-badge {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card {
+    border: none !important;
+    border-radius: 0px !important;
+    overflow: hidden;
+    background: var(--background-medium) !important;
+    box-shadow: 2px 4px 10px rgba(0,0,0,.3);
+}
+
+.card .card-title {
+    color: var(--primary-2);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.card .card-text {
+    font-size: 12px;
+}
+
+.card-text:last-child {
+    color: white;
+    opacity: 0.5;
+}
+
+.card .post-info {
+    background-color: var(--background-medium);
+    padding: 0 18px;
+}
+
+.post-info .title, .post-info .value  {
+    font-style: italic;
+    font-size: 10px;
+    color: var(--black-medium);
+}
+
+.post-info .value {
+    color: var(--primary-2);
+    font-style: italic;
+}
+
+.btn-primary.news-btn {
+    font-size: 11px;
+    padding: 5px 10px;
+}
+
+/* card 2 specific styling style */
+
+.card-2 .snipet {
+    color: blueviolet;
+}
+
+.card-2 .info-wrapper {
+    padding: 0 18px
+}
+
+.card-2 .media-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.card-2 .key {
+    color: var(--bs-blue);
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.reference {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-2 .item {
+
+}
+
+.reference .title, .reference .value {
+    font-size: 12px;
+    font-style: italic;
+    color: var(--primary-2);
+}
+
+.reference .title {
+    color: var(--black-medium);
+    margin-right: 5px;
+}
+
+.bar {
+    width: 1px;
+    height: 16px;
+    background-color: var(--black-medium);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.card-2 .media-wrapper > img {
+    width: 47%;
+    height: 170px;
+    border: 1px solid var(--black-medium);
+    object-fit: cover;
+    margin: 3px;
+}
+
+.keyword-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.keyword-list > span {
+    color: var(--primary);
+    font-size: 11px;
+    font-style: italic;
+    margin-right: 5px;
+}
