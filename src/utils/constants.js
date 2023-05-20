@@ -14,6 +14,6 @@ export const sources = [
     'The Guardian', 'News API', 'New York Times'
 ]
 
-export const baseUrl = 'http://192.168.100.3:8000/api/'
+export const baseUrl = 'http://localhost:8000/api/'
 
 export const mutlimedia_prefix = 'https://static01.nyt.com/'
